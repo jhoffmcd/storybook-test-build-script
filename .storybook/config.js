@@ -1,7 +1,7 @@
 import { configure } from "@storybook/react";
 
 // Only polyfill require.context in test mode
-if (process.env.STORYBOOK_BUILD === "false") {
+if (process.env.NODE_ENV === "test") {
   require("babel-plugin-require-context-hook/register")();
 }
 

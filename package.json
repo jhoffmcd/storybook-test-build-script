@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "STORYBOOK_BUILD=false start-storybook -p 9001",
-    "storybook:build": "STORYBOOK_BUILD=true build-storybook",
+    "storybook": "start-storybook -p 9001",
+    "storybook:build": "build-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
