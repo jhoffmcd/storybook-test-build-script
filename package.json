@@ -1,0 +1,37 @@
+{
+  "name": "storybook-build-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "STORYBOOK_BUILD=false start-storybook -p 9001",
+    "storybook:build": "STORYBOOK_BUILD=true build-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/addon-actions": "^4.0.0-alpha.21",
+    "@storybook/addon-knobs": "^4.0.0-alpha.21",
+    "@storybook/addons": "^4.0.0-alpha.21",
+    "@storybook/react": "^4.0.0-alpha.21",
+    "emotion": "^9.2.8",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-emotion": "^9.2.8",
+    "reactstrap": "^6.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.15",
+    "prop-types": "^15.6.2"
+  }
+}
