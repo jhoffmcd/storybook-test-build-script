@@ -6,6 +6,8 @@
   "scripts": {
     "storybook": "start-storybook -p 9001",
     "storybook:build": "build-storybook",
+    "storybook:env-test": "STORYBOOK_BUILD=false start-storybook -p 9001",
+    "storybook:env-test:build": "STORYBOOK_BUILD=true build-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
